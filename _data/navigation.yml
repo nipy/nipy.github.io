@@ -1,0 +1,22 @@
+# Site navigation links
+
+- title: Project Directory
+  url: /project-directory
+  excerpt: "A directory of neuroimaging projects in Python"
+  image: 
+
+- title: Get Help
+  url: /support
+  excerpt: "Where to go for more information"
+  image:
+
+- title: Contribute
+  url: /contribute
+  excerpt: "It ain't a community if you don't take part"
+  image:
+
+- title: Code of conduct
+  url: /code-of-conduct
+  excerpt:
+  image:
+
