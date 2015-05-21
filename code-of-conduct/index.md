@@ -29,7 +29,7 @@ Members of the community are open to collaboration. Be it on the reuse of data, 
 
 #### Be collaborative!
 
-Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of others, we are willing to explain to others how it works, so that they can build on the work to make it even better.
+Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of others, we are willing to explain to others how it works, so that they can build on the work to make it even better. We are willing to provide constructive criticism on the work of others.
 
 #### Be inquisitive!
 
