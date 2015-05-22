@@ -14,7 +14,6 @@ share: false
 
 The NIPY community is a community of practice devoted to the use of the Python language in the analysis of neuroimaging data. The following code of conduct reflects our values as a community and serves as a set of guidelines for our individual behaviors in the context of our participation in this community.
 
-
 It is based on, and heavily inspired by a reading of the [Python community code of conduct](https://www.python.org/psf/codeofconduct/), the [Apache foundation code of conduct](http://www.apache.org/foundation/policies/conduct.html), and the [Debian code of conduct](https://www.debian.org/code_of_conduct)
 
 
@@ -26,11 +25,11 @@ A member of the NIPY community is:
 
 ### Open
 
-Members of the community are open to collaboration. Be it on the reuse of data, on the implementation of methods, on finding technical solutions, establishing best practices, and otherwise. We are receptive to constructive comment and criticism, as the experiences and skill sets of other members contribute to the whole of our efforts. We are accepting of all who wish to take part in our activities, fostering an environment where anyone can participate and everyone can make a difference.
+Members of the community are open to collaboration. Be it on the reuse of data, on the implementation of methods, on finding technical solutions, establishing best practices, and otherwise. We are accepting of all who wish to take part in our activities, fostering an environment where anyone can participate and everyone can make a difference.
 
 #### Be collaborative!
 
-Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of others, we are willing to explain to others how it works, so that they can build on the work to make it even better. We are willing to provide constructive criticism on the work of others and accept criticism of our own work.
+Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of others, we are willing to explain to others how it works, so that they can build on the work to make it even better. We are willing to provide constructive criticism on the work of others and accept criticism of our own work, as the experiences and skill sets of other members contribute to the whole of our efforts.
 
 #### Be inquisitive!
 
