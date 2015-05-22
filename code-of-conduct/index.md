@@ -12,9 +12,10 @@ image:
 share: false
 ---
 
-The following text is a **Work in progress**. Of course it is not and cannot be enforced, but is a set of ideas, a point of departure for a discussion, about what kind of community we might want to live in.
+The NIPY community is a community of practice devoted to the use of the Python language in the analysis of neuroimaging data. The following code of conduct reflects our values as a community and serves as a set of guidelines for our individual behaviors in the context of our participation in this community.
 
-It is based on, and heavily inspired by a reading (and some copy-pasting!) of the [Python community code of conduct](https://www.python.org/psf/codeofconduct/), the [Apache foundation code of conduct](http://www.apache.org/foundation/policies/conduct.html), and the [Debian code of conduct](https://www.debian.org/code_of_conduct)
+
+It is based on, and heavily inspired by a reading of the [Python community code of conduct](https://www.python.org/psf/codeofconduct/), the [Apache foundation code of conduct](http://www.apache.org/foundation/policies/conduct.html), and the [Debian code of conduct](https://www.debian.org/code_of_conduct)
 
 
 ## The code of conduct for the NIPY community
