@@ -41,7 +41,7 @@ Members of the community are considerate of their peers. We are thoughtful when 
 
 #### Be careful in the words that you choose:
 
-We value courtesy, kindness and inclusiveness in all our interactions. Therefore, we take responsibility for our own speech. Do not insult or put down other participants. Harassment and other exclusionary behaviour are not acceptable. In particular, please be careful to avoid:
+We value courtesy, kindness and inclusiveness in all our interactions. Therefore, we take responsibility for our own speech. Do not insult or put down other participants. We do not tolerate harassment and other exclusionary behaviour. In particular, we try to be careful to avoid:
 
 - Personal insults.
 - Violent threats or language directed against another person.
