@@ -12,7 +12,7 @@ image:
 share: false
 ---
 
-The NIPY community is a community of practice devoted to the use of the Python language in the analysis of neuroimaging data. The following code of conduct is a guideline for our behavior as we participate in this community.
+The NIPY community is a community of practice devoted to the use of the Python programming language in the analysis of neuroimaging data. The following code of conduct is a guideline for our behavior as we participate in this community.
 
 It is based on, and heavily inspired by a reading of the [Python community code of conduct](https://www.python.org/psf/codeofconduct/), the [Apache foundation code of conduct](http://www.apache.org/foundation/policies/conduct.html), the [Debian code of conduct](https://www.debian.org/code_of_conduct), and the [Ten Principles of Burning Man](http://survival.burningman.com/culture/the-10-principles/).
 
