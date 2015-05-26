@@ -14,12 +14,12 @@ share: false
 
 The NIPY community is a community of practice devoted to the use of the Python language in the analysis of neuroimaging data. The following code of conduct reflects our values as a community and serves as a set of guidelines for our individual behaviors in the context of our participation in this community.
 
-It is based on, and heavily inspired by a reading of the [Python community code of conduct](https://www.python.org/psf/codeofconduct/), the [Apache foundation code of conduct](http://www.apache.org/foundation/policies/conduct.html), and the [Debian code of conduct](https://www.debian.org/code_of_conduct)
+It is based on, and heavily inspired by a reading of the [Python community code of conduct](https://www.python.org/psf/codeofconduct/), the [Apache foundation code of conduct](http://www.apache.org/foundation/policies/conduct.html), the [Debian code of conduct](https://www.debian.org/code_of_conduct), and the [Ten Principles of Burning Man](http://survival.burningman.com/culture/the-10-principles/).
 
 
 ## The code of conduct for the NIPY community
 
-The Neuroimaging in Python (NIPY) community is made up of members with a diverse set of skills, personalities, background, and experiences. It is through these differences that our community will experience great successes and continued growth. Decisions we make affect users, colleagues, and through scientific results, the general public. We take those consequences seriously when making decisions. When you are working with members of the community, we encourage you to follow these guidelines, which help steer our interactions and help keep NIPY a positive, successful, and growing community.
+The Neuroimaging in Python (NIPY) community is made up of members with a diverse set of skills, personalities, background, and experiences. It is through these differences that our community will experience great successes and continued growth. Decisions we make affect users, colleagues, and through scientific results, the general public. We take these consequences seriously when making decisions. When you are working with members of the community, we encourage you to follow these guidelines, which help steer our interactions and help keep NIPY a positive, successful, and growing community.
 
 A member of the NIPY community is:
 
@@ -41,14 +41,13 @@ Members of the community are considerate of their peers. We are thoughtful when 
 
 #### Be careful in the words that you choose:
 
-We value professionalism and courtesy in all our interactions, and take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. Harassment and other exclusionary behaviour are not acceptable. This includes, but is not limited to:
+We value courtesy, kindness and inclusiveness in all our interactions. Therefore, we take responsibility for our own speech. Do not insult or put down other participants. Harassment and other exclusionary behaviour are not acceptable. In particular, please be careful to avoid:
 
+- Personal insults.
 - Violent threats or language directed against another person.
 - Sexist, racist, or otherwise discriminatory jokes and language.
-- Posting sexually explicit or violent material.
+- Any form of sexual or violent material.
 - Sharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history.
-- Personal insults, especially those using racist or sexist terms.
-- Unwelcome sexual attention.
 - Excessive or unnecessary profanity.
 - Repeated harassment of others. In general, if someone asks you to stop, then stop.
 - Advocating for, or encouraging, any of the above behaviour.
@@ -63,4 +62,4 @@ Try to stay on topic, especially in discussions that are already fairly long and
 
 ### Respectful
 
-Members of the community are respectful. We are respectful of others, their positions, their skills, their commitments, and their efforts. We are respectful of the volunteer and professional efforts that permeate the NIPY community. We are respectful of the processes set forth in the community, and we work within them. When we disagree, we are courteous in raising our issues.
+Members of the community are respectful. We are respectful of others, their positions, their skills, their commitments, and their efforts. We are respectful of the volunteer and professional efforts that permeate the NIPY community. We are respectful of the processes set forth in the community, and we work within them. When we disagree, we are courteous and kind in raising our issues.
