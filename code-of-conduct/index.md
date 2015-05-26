@@ -19,7 +19,7 @@ It is based on, and heavily inspired by a reading of the [Python community code 
 
 ## The code of conduct for the NIPY community
 
-The Neuroimaging in Python (NIPY) community is made up of members with a diverse set of skills, personalities, background, and experiences. It is through these differences that our community will experience great successes and continued growth. Decisions we make affect users, colleagues, and through scientific results, the general public. We take these consequences seriously when making decisions. When you are working with members of the community, we encourage you to follow these guidelines, which help steer our interactions and help keep NIPY a positive, successful, and growing community.
+The Neuroimaging in Python (NIPY) community is made up of members with a diverse set of skills, personalities, background, and experiences. We welcome these differences because they are the source of diverse ideas, solutions and decisions about our work. Decisions we make affect users, colleagues, and through scientific results, the general public. We take these consequences seriously when making decisions. When you are working with members of the community, we encourage you to follow these guidelines, which help steer our interactions and help keep NIPY a positive, successful, and growing community.
 
 A member of the NIPY community is:
 
