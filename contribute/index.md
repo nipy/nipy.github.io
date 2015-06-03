@@ -15,6 +15,7 @@ share: false
 
 ### Contribute to one of the nipy projects
 
+If you are using a software library, consider contributing to its development. It's fun, it's helpful, and if you are not careful, you might learn something useful. Each project has its own workflow pertaining to contributions, but it usually involves raising an issue on the project's Github repository to discuss the proposed change, making a fork of the repository on github, making changes to the code and submitting a pull request. If you are just getting started with this, don't be shy: [ask for help](http://nipy.github.io/support/)! 
 
 ### Contribute to this website 
 
