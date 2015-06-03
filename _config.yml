@@ -24,7 +24,7 @@ gems:
 owner:
   name: The NIPY Community
   email: nipy-devel@neuroimaging.scipy.org
-  twitter:
+  twitter: nipydev
   google:
     ad-client: 
     ad-slot: 
