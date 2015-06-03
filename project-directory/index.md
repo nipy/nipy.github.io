@@ -14,7 +14,6 @@ share: false
 
 {% include toc.html %}
 
-# Software 
 
 ## File I/O and data management
 
@@ -87,7 +86,4 @@ Nipype allows you to:
 
 
 
-# Data
-
-### Open fMRI
 
