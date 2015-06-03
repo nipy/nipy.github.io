@@ -5,7 +5,7 @@ date: {{ date }}
 modified:
 excerpt:
 image:
-  feature:
-  teaser:
-  thumb:
+  feature: otsu.jpg
+  teaser: threeview.jpg
+  thumb: threeview.jpg
 ---

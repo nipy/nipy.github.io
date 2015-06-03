@@ -6,7 +6,7 @@ categories: {{ dir }}
 excerpt:
 tags: []
 image:
-  feature:
-  teaser:
+  feature: otsu.jpg
+  teaser: threeview.jpg
   thumb:
 ---

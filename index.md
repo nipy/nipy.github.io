@@ -24,7 +24,7 @@ image:
 
 <div class="tile">
   <h2 class="post-title">A natural home for collaboration</h2>
-  <p class="post-excerpt">Get involved!</p>
+  <p class="post-excerpt">Get <a href="http://nipy.github.io/contribute/">involved</a>!</p>
 </div><!-- /.tile -->
 
 </div><!-- /.tiles -->

@@ -5,8 +5,8 @@ date: {{ date }}
 modified:
 excerpt:
 image:
-  feature:
-  teaser:
-  thumb:
+  feature: threeview.jpg
+  teaser: threeview.jpg
+  thumb: threeview.jpg
 ads: false  
 ---

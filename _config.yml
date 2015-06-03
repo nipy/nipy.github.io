@@ -2,8 +2,8 @@
 
 title: NIPY
 description: A community portal for scientists, developers and hackers using Python to analyze neuorimaging data
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+logo: otsu.jpg # 120x120 px default image used for Twitter summary card
+teaser: threeview.jpg # 400x250 px default teaser image used in image archive grid
 locale:
 url:
 
@@ -22,15 +22,15 @@ gems:
 
 # Site owner
 owner:
-  name:
-  email:
+  name: The NIPY Community
+  email: nipy-devel@neuroimaging.scipy.org
   twitter:
   google:
     ad-client: 
     ad-slot: 
   bio: 
   avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname:
+  disqus-shortname: nipy
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

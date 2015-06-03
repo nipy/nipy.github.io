@@ -12,4 +12,8 @@ image:
 share: false
 ---
 
-To contribute to this website follow the instructions below
+
+### Contribute to one of the nipy projects
+
+
+### Contribute to this website 
