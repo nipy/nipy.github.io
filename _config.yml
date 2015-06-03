@@ -5,7 +5,7 @@ description: A community portal for scientists, developers and hackers using Pyt
 logo: otsu.jpg # 120x120 px default image used for Twitter summary card
 teaser: threeview.jpg # 400x250 px default teaser image used in image archive grid
 locale:
-url:
+url: http://nipy.github.io
 
 # Jekyll configuration
 
