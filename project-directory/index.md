@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Neuroimaing in Python projects"
+title: "Neuroimaging in Python projects"
 date: 2015-05-18
 modified:
 excerpt:
