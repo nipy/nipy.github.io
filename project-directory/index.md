@@ -31,15 +31,15 @@ SciTran SDM delivers efficient and robust archiving, organization, and sharing o
 
 ## Functional MRI
 
-### [PyMVPA](http://www.pymvpa.org/)
-
-PyMVPA is a Python package intended to ease statistical learning analyses of large datasets. It offers an extensible framework with a high-level interface to a broad range of algorithms for classification, regression, feature selection, data import and export. It is designed to integrate well with related software packages, such as scikit-learn, shogun, MDP, etc. While it is not limited to the neuroimaging domain, it is eminently suited for such datasets. PyMVPA is free software and requires nothing but free-software to run.
-
 ### [Nilearn](http://nilearn.github.io/)
 
 Nilearn is a Python module for fast and easy statistical learning on NeuroImaging data.
 
 It leverages the scikit-learn Python toolbox for multivariate statistics with applications such as predictive modelling, classification, decoding, or connectivity analysis.
+
+### [Nipy](http://nipy.org/nipy)
+
+NIPY is not only the name of the Neuroimaging in Python community, but also a python project for analysis of structural and functional neuroimaging data. 
 
 ### [Nitime](http://nitime.org)
 
@@ -47,6 +47,9 @@ Nitime is a library for time-series analysis of data from neuroscience experimen
 
 It contains a core of numerical algorithms for time-series analysis both in the time and spectral domains, a set of container objects to represent time-series, and auxiliary objects that expose a high level interface to the numerical machinery and make common analysis tasks easy to express with compact and semantically clear code.
 
+### [PyMVPA](http://www.pymvpa.org/)
+
+PyMVPA is a Python package intended to ease statistical learning analyses of large datasets. It offers an extensible framework with a high-level interface to a broad range of algorithms for classification, regression, feature selection, data import and export. It is designed to integrate well with related software packages, such as scikit-learn, shogun, MDP, etc. While it is not limited to the neuroimaging domain, it is eminently suited for such datasets. PyMVPA is free software and requires nothing but free-software to run.
 
 ## Diffusion MRI
 
