@@ -23,7 +23,7 @@ gems:
 # Site owner
 owner:
   name: The NIPY Community
-  email: nipy-devel@neuroimaging.scipy.org
+  email: neuroimaging@python.org
   twitter: nipydev
   google:
     ad-client: 
