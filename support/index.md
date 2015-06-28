@@ -22,7 +22,7 @@ For nipy-specific questions you can use on of the following channels:
 
 ### The `neuroimaging` mailing list
 
-The [`neuroimaging`](http://mail.python.org/mailman/listinfo/neuroimaging) is an open mailing list, for discussion of issues related to neuroimaging and Python. No question will be turned away, but some might be diverted to other forums more relevant to the question. For example, questions about using Matplotlib for visualization may be directed to the MPL mailing list.
+The [neuroimaging list](http://mail.python.org/mailman/listinfo/neuroimaging) is an open mailing list, for discussion of issues related to neuroimaging and Python. No question will be turned away, but some might be diverted to other forums more relevant to the question. For example, questions about using Matplotlib for visualization may be directed to the MPL mailing list.
 
 
 ### [Neurostars](https://neurostars.org/)
