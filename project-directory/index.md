@@ -91,4 +91,4 @@ Nipype allows you to:
 
 ### [Mindboggle](http://www.mindboggle.info/)
 
-The Mindboggle software package automates shape analysis of anatomical labels and features extracted from human brain MR image data (read the story). Mindboggle can be run as a single command, and can be easily installed as a cross-platform virtual machine for convenience and reproducibility of results. Behind the scenes, open source Python and C++ code run within a Nipype pipeline framework.
+The Mindboggle software package automates shape analysis of anatomical labels and features extracted from human brain MR image data (read the [story](http://www.mindboggle.info/faq/why_mindboggle.html)). Mindboggle can be run as a single command, and can be easily installed as a cross-platform virtual machine for convenience and reproducibility of results. Behind the scenes, open source Python and C++ code run within a Nipype pipeline framework.
