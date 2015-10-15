@@ -39,7 +39,7 @@ It leverages the scikit-learn Python toolbox for multivariate statistics with ap
 
 ### [Nipy](http://nipy.org/nipy)
 
-NIPY is not only the name of the Neuroimaging in Python community, but also a python project for analysis of structural and functional neuroimaging data. 
+NIPY is not only the name of the Neuroimaging in Python community, but also a python project for analysis of structural and functional neuroimaging data.
 
 ### [Nitime](http://nitime.org)
 
@@ -55,7 +55,7 @@ PyMVPA is a Python package intended to ease statistical learning analyses of lar
 
 ### [Dipy](http://dipy.org)
 
-Dipy is a free and open source software project focusing mainly on diffusion magnetic resonance imaging (dMRI) analysis. 
+Dipy is a free and open source software project focusing mainly on diffusion magnetic resonance imaging (dMRI) analysis.
 
 ## Human electrophysiology
 
@@ -80,13 +80,15 @@ Nipype, an open-source, community-developed initiative under the umbrella of NiP
 
 Nipype allows you to:
 
-- Easily interact with tools from different software packages. 
+- Easily interact with tools from different software packages.
 - Combine processing steps from different software packages.
 - Develop new workflows faster by reusing common steps from old ones.
 - Process data faster by running it in parallel on many cores/machines.
 - Make your research easily reproducible.
 - Share your processing workflows with the community.
 
+## Computational Anatomy
 
+### [Mindboggle](http://www.mindboggle.info/)
 
-
+The Mindboggle software package automates shape analysis of anatomical labels and features extracted from human brain MR image data (read the story). Mindboggle can be run as a single command, and can be easily installed as a cross-platform virtual machine for convenience and reproducibility of results. Behind the scenes, open source Python and C++ code run within a Nipype pipeline framework.
