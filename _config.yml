@@ -8,11 +8,11 @@ author:
   url: "nipy.github.io"
 
 # Build settings
-baseurl: "/"
+baseurl: '/'
 markdown: kramdown
 source: .
 destination: ./_site
-permalink: "/:title"
+permalink: '/:title'
 paginate: 8
 paginate_path: /page:num/
 
