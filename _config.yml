@@ -1,7 +1,7 @@
 # Site settings
-title: nipy.github.io
-description: "nipy.github.io"
-url: "nipy.github.io"
+title: nipy.org
+description: "nipy.org"
+url: "nipy.org"
 author:
   name: "nipy"
   email: "neuroimaging@python.org"
