@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<h2 style="margin-top:20px; margin-bottom:20px">nipy.github.io</h2>
+<a href="{{ site.baseurl }}">
+    <img src="{{ prepend: site.baseurl }}" >
+</a>
+
+
+<div class="panel-group" id="accordion">
+        {% for grouping in site.data.packages %}
+            {% for category in grouping.categories %}
+                {% for package in category.packages %}
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#pr{{ package.tag }}">{{ package.name }} </a>
+                            <a href="{{ package.github }}" target="_blank"><i style="color:#666;float:right;" class="fa fa-github"> </i></a>
+                            <a href="{{ package.doc }}" target="_blank"><i style="color:#333;float:right; margin-right:5px" class="fa fa-home"></i></a>
+                        </h4>
+                    </div>
+                    <div id="pr{{ package.tag }}" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                        <p>{{ package.description }}</p> <a href="{{ site.baseurl }}{{ package.tag }}.html"> <span style="float:right">learn more</a></span></p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+             {% endfor %}
+</div>
+       {% endfor %}

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article id="page">
+
+{% assign package_name = page.url |  remove: "/" | replace:'.html','' %}
+{% for grouping in site.data.packages %}
+    {% for category in grouping.categories %}
+        {% for package in category.packages %}
+             {% if package_name == package.tag %}
+             <h1>{{ package.name }}</h1>
+             <h5>{{ category.name }}</h5>
+
+             <a href="{{ package.doc }}" target="_blank" class="btn btn-sm btn-default"><span class="fa fa-home"></span> Doc</a> 
+             <a href="{{ package.github }}" target="_blank" class="btn btn-sm btn-default"><span class="fa fa-github"></span> Github</a>
+
+             <h4>{{ package.description }}</h4>
+             {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+	
+{{ content }}
+
+</article>
