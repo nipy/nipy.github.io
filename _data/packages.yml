@@ -1,0 +1,78 @@
+- title: "Projects"
+  category_count: 6
+  package_count: 10
+  categories:
+    - subtitle: "Analysis Pipeline Management"
+      tag: "analysis-pipeline-management"
+      count: 1
+      packages:
+        - name: "nipype"
+          tag: "nipype"
+          doc: "http://www.mit.edu/~satra/nipype-nightly/"
+          github: "https://github.com/nipy/nipype"
+          description: "Nipype provides a uniform interface to existing neuroimaging software and facilitates interaction between these packages within a single workflow."
+    - subtitle: "Diffusion MRI"
+      tag: "diffusion-mri"
+      count: 2
+      packages:
+        - name: "dipy"
+          tag: "dipy"
+          doc: "http://nipy.org/dipy/"
+          github: "https://github.com/nipy/dipy"
+          description: "Dipy is a free and open source software project focusing mainly on diffusion magnetic resonance imaging (dMRI) analysis."
+    - subtitle: "File I/O and Data Management"
+      tag: "file-data-management"
+      count: 4
+      packages:
+        - name: "mindboggle"
+          tag: "mindboggle"
+          doc: "http://www.mindboggle.info/"
+          github: "https://github.com/nipy/mindboggle"
+          description: "The purpose of Mindboggle is to improve the accuracy, precision, and consistency of labeling and morphometry of brain imaging data, and to promote open science by making all data, software, and documentation freely and openly available."
+        - name: "nibabel"
+          tag: "nibabel"
+          doc: "http://nipy.org/nibabel/"
+          github: "https://github.com/nipy/nibabel"
+          description: "Read / write access to some common neuroimaging file formats."
+        - name: "Scitran SDM"
+          tag: "sdm"
+          doc: "https://scitran.github.io/"
+          github: "https://github.com/scitran/sdm"
+          description: "SciTran SDM delivers efficient and robust archiving, organization, and sharing of scientific data"
+    - subtitle: "Functional MRI"
+      tag: "functional-mri"
+      count: 4
+      packages:
+        - name: "Nitime"
+          tag: "nitime"
+          doc: "http://nipy.org/nitime/"
+          github: "https://github.com/nipy/nitime"
+          description: "Nitime is a library for time-series analysis of data from neuroscience experiments."
+        - name: "Nipy"
+          tag: "nipy"
+          doc: "http://nipy.org"
+          github: "https://github.com/nipy"
+          description: "NIPY is not only the name of the Neuroimaging in Python community, but also a python project for analysis of structural and functional neuroimaging data."
+    - subtitle: "Machine Learning"
+      tag: "machine-learning"
+      count: 5
+      packages:
+        - name: "Nilearn"
+          tag: "nilearn"
+          doc: "http://nilearn.github.io"
+          github: "https://github.com/nilearn/nilearn"
+          description: "Nilearn is a Python module for fast and easy statistical learning on NeuroImaging data."
+        - name: "PyMVPA"
+          tag: "pymvpa"
+          doc: "http://www.pymvpa.org/"
+          github: "https://github.com/PyMVPA/PyMVPA"
+          description: "PyMVPA is a Python package intended to ease statistical learning analyses of large datasets."
+    - subtitle: "Human Electrophysiology"
+      tag: "human-electrophysiology"
+      count: 6
+      packages:
+        - name: "MNE"
+          tag: "mne"
+          doc: "http://martinos.org/mne/stable/mne-python.html"
+          github: "https://github.com/mne-tools/mne-python"
+          description: "MNE is a software package for processing magnetoencephalography (MEG) and electroencephalography (EEG) data"
