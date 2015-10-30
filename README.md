@@ -1,5 +1,5 @@
 ## About
-nipy.org is built with a custom theme created for Jekyll. 
+nipy.org is built with a custom theme created for Jekyll.
 
 - [site](http://www.nipy.org)
 - preview changes with [continuous integration](https://circleci.com/gh/nipy/nipy.github.com/tree/master)
@@ -20,8 +20,9 @@ To see more detailed instructions for adding a new project ("data") please refer
 ###### Add a new project
 
 1. Edit `/_data/projects.yml'; create an entry for your project in the appropriate category (copy-paste!)
-2. Copy `/nipy.html` to `/your_project.html`
-3. Add your logo to `imgs`
+2. Copy `/packages/nipy.html` to `/packages/your_project.html`
+3. Edit `/packages/your_project.html`
+4. Add your logo to `imgs`
 
 #### Running Locally
 
