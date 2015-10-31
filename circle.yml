@@ -5,15 +5,13 @@ machine:
 dependencies:
   pre:
     - gem install jekyll
+  post:
+    - bundle exec jekyll build:
+        timeout: 300 # 5 min
 
 general:
   artifacts:
     - "./_site"
-
-dependencies:
-  post:
-    - bundle exec jekyll build:
-        timeout: 300 # 5 min
 
 test:
   override:
