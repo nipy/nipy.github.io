@@ -1,9 +1,16 @@
-machine:
-  ruby:
-    version: rbx-2.2.6
-
 dependencies:
   pre:
+    - sudo rm -rf /usr/bin/ruby1.8 
+    - sudo rm -rf /usr/bin/ruby 
+    - sudo rm -rf /usr/lib/ruby 
+    - sudo rm -rf /usr/bin/X11/ruby1.8 
+    - sudo rm -rf /usr/bin/X11/ruby 
+    - sudo rm -rf /usr/share/man/man1/ruby.1.gz
+    - sudo curl -sSL https://get.rvm.io | bash -s stable --ruby
+    - rvm reload
+    - rvm install 2.1.0
+    - rvm reinstall 2.1.0
+    - rvm use 2.1.0 --default
     - gem install jekyll
 
 general:
@@ -12,4 +19,7 @@ general:
 
 test:
   override:
+    - gem install jekyll-paginate
+    - chmod u+x circle_urls.sh
+    - bash circle_urls.sh
     - jekyll build
