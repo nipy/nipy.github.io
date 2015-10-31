@@ -1,3 +1,29 @@
+dependencies:
+  pre:
+    - rvm implode yes
+    - rm -rf ~/.rvmrc
+    - rm -rf ~/.rbenv
+    - rm -rf ~/.rbx
+    - sudo rm -rf /usr/bin/ruby1.8 
+    - sudo rm -rf /usr/bin/ruby 
+    - sudo rm -rf /usr/lib/ruby 
+    - sudo rm -rf /usr/bin/X11/ruby1.8 
+    - sudo rm -rf /usr/bin/X11/ruby 
+    - sudo rm -rf /usr/share/man/man1/ruby.1.gz
+    - wget https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.gz
+    - tar -xzvf ruby-2.2.3.tar.gz
+    - cd ruby-2.2.3.tar.gz
+    - ./configure
+    - make
+    - sudo make install
+    - cd $HOME/nipy.github.com
+    - gem install jekyll
+    - gem install jekyll-paginate
+
 general:
   artifacts:
     - "./_site"
+
+test:
+  override:
+    - jekyll build
