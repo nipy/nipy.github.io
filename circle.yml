@@ -11,7 +11,7 @@ dependencies:
     - sudo rm -rf /usr/share/man/man1/ruby.1.gz
     - wget https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.gz
     - tar -xzvf ruby-2.2.3.tar.gz
-    - cd ruby-2.2.3.tar.gz
+    - cd ruby-2.2.3
     - ./configure
     - make
     - sudo make install
