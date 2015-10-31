@@ -12,7 +12,6 @@ dependencies:
     - rvm reinstall 2.1.0
     - rvm use 2.1.0 --default
     - gem install jekyll
-    - gem install jekyll-paginate
 
 general:
   artifacts:
@@ -20,6 +19,7 @@ general:
 
 test:
   override:
+    - gem install jekyll-paginate
     - chmod u+x circle_urls.sh
     - bash circle_urls.sh
     - jekyll build
