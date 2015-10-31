@@ -6,14 +6,11 @@ dependencies:
     - sudo rm -rf /usr/bin/X11/ruby1.8 
     - sudo rm -rf /usr/bin/X11/ruby 
     - sudo rm -rf /usr/share/man/man1/ruby.1.gz
-    - cd $HOME 
-    - wget https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.gz
-    - tar -xzvf ruby-2.2.3.tar.gz
-    - cd ruby-2.2.3
-    - bash configure
-    - make
-    - sudo make install
-    - cd $HOME/nipy.github.com
+    - sudo curl -sSL https://get.rvm.io | bash -s stable --ruby
+    - rvm reload
+    - rvm install 2.1.0
+    - rvm reinstall 2.1.0
+    - rvm use 2.1.0 --default
     - gem install jekyll
     - gem install jekyll-paginate
 
