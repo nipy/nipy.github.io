@@ -1,6 +1,5 @@
 dependencies:
   pre:
-    - rvm implode yes
     - rm -rf ~/.rvmrc
     - rm -rf ~/.rbenv
     - rm -rf ~/.rbx
