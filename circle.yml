@@ -9,7 +9,7 @@ dependencies:
     - cd $HOME 
     - wget https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.gz
     - tar -xzvf ruby-2.2.3.tar.gz
-    - cd $HOME/ruby-2.2.3
+    - cd ruby-2.2.3
     - bash configure
     - make
     - sudo make install
