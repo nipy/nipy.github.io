@@ -1,3 +1,7 @@
+machine:
+  ruby:
+    version: rbx-2.2.6
+
 dependencies:
   pre:
     - gem install jekyll
@@ -6,6 +10,11 @@ general:
   artifacts:
     - "./_site"
 
+dependencies:
+  post:
+    - bundle exec jekyll build:
+        timeout: 300 # 5 min
+
 test:
   override:
-    - jekyll build
+    - echo "No tests are needed"
