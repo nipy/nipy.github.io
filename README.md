@@ -1,5 +1,5 @@
 ## About
-nipy.github.io is built with a custom theme created for Jekyll. 
+nipy.org is built with a custom theme created for Jekyll. 
 
 - [site](http://www.nipy.org)
 - preview changes with [continuous integration](https://circleci.com/gh/nipy/nipy.github.com/tree/master)
