@@ -1,10 +1,10 @@
 ## About
 nipy.github.io is built with a custom theme created for Jekyll. 
 
-- [site](http://nipy.github.io)
-- preview changes with [continuous integration](https://circle-artifacts.com/gh/vsoch/nipy-jekyll/70/artifacts/0/home/ubuntu/nipy-jekyll/_site/index.html)
+- [site](http://www.nipy.org)
+- preview changes with [continuous integration](https://circleci.com/gh/nipy/nipy.github.com/tree/master)
 
-[![Circle CI](https://circleci.com/gh/vsoch/nipy-jekyll.svg?style=svg)](https://circleci.com/gh/vsoch/nipy-jekyll)
+[![Circle CI](https://circleci.com/gh/nipy/nipy.github.com.svg?style=svg)](https://circleci.com/gh/nipy/nipy.github.com)
 
 
 ###### Install Jekyll and RubyGems
@@ -15,7 +15,7 @@ Refer to the [Jekyll documentation](http://jekyllrb.com) for further help.
 
 #### Quick Start
 
-To see more detailed instructions for adding a new project ("data") please refer to the Contribute section on the site.
+To see more detailed instructions for adding a new project ("data") please refer to the [Contribute section](http://nipy.org/contribute.html) on the site.
 
 ###### Add a new project
 
@@ -25,6 +25,6 @@ To see more detailed instructions for adding a new project ("data") please refer
 
 #### Running Locally
 
-      cd nipy.github.io
+      cd nipy.github.com
       jekyll serve
 
