@@ -19,10 +19,9 @@ To see more detailed instructions for adding a new project ("data") please refer
 
 ###### Add a new project
 
-1. Edit `/_data/projects.yml'; create an entry for your project in the appropriate category (copy-paste!)
-2. Copy `/packages/nipy.html` to `/packages/your_project.html`
-3. Edit `/packages/your_project.html`
-4. Add your logo to `imgs`
+1. Copy `/packages/nipy.html` to `/packages/your_project.html`
+2. Edit `/packages/your_project.html`
+3. Add your logo to `imgs`
 
 #### Running Locally
 

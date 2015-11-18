@@ -5,18 +5,18 @@
 
         <!-- Nav pages -->
         <a href="#projects" class="list-group-item list-group-item" data-toggle="collapse">Projects <i class="fa fa-caret-down"></i></a>
-        {% for grouping in site.data.packages %}
         <div class="collapse" id="projects">
-            {% for category in grouping.categories %}
+        {% for category in site.data.package-categories %}
             <a href='#{{ category.tag }}' class="list-group-item list-class" data-toggle="collapse" style="color:aqua;font-weight:400">{{ category.subtitle }}</a>
-                <div class="collapse" id="{{ category.tag }}" style="color:lime">
-                {% for package in category.packages %}
-                    <a href="{{ site.baseurl }}packages/{{ package.tag }}.html" style="border-radius:0px; color:lime;" id="{{ package.tag }}" class="list-group-item list-project">{{ package.name }}</a>
-                {% endfor %}
-                </div>
-             {% endfor %}
-       {% endfor %}
-       </div>
+            <div class="collapse" id="{{ category.tag }}" style="color:lime">
+            {% for package in site.packages %}
+                {% if package.category == category.tag %}
+                <a href="{{ site.baseurl }}packages/{{ package.tag }}.html" style="border-radius:0px; color:lime;" id="{{ package.tag }}" class="list-group-item list-project">{{ package.name }}</a>
+                {% endif %}
+            {% endfor %}
+            </div>
+        {% endfor %}
+        </div>
 
     <!-- Nav links -->
     {% include link.html %}

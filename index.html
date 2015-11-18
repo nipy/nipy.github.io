@@ -4,30 +4,33 @@ layout: default
 
 <h2 style="margin-top:20px; margin-bottom:20px">nipy.github.io</h2>
 <a href="{{ site.baseurl }}">
-    <img src="{{ prepend: site.baseurl }}" >
+    <img src="{{ site.baseurl }}" >
 </a>
 
 <p>Welcome to NIPY. The NIPY community is a community of practice devoted to the use of the Python programming language in the analysis of neuroimaging data. You can find us on <a href="https://github.com/nipy" target="_blank">github</a>, as well as <a href="http://neuroimaging.tumblr.com" target="_blank">social media</a>. We welcome <a href="{{ site.baseurl }}contribute.html">contributions</a> and welcome you to read about our <a href="{{ site.baseurl }}conduct.html">standards of conduct</a>, or <a href="{{ site.baseurl }}help.html">ask for help.</a> We develop the following projects:</p>
 
 <div class="panel-group" id="accordion">
-        {% for grouping in site.data.packages %}
-            {% for category in grouping.categories %}
-                {% for package in category.packages %}
+        {% for category in site.data.package-categories %}
+            {% for package in site.packages %}
+                {% if package.category == category.tag %}
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#pr{{ package.tag }}">{{ package.name }} </a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#pr{{ package.tag }}">{{ package.name }}</a>
                             <a href="{{ package.github }}" target="_blank"><i style="color:#666;float:right;" class="fa fa-github"> </i></a>
                             <a href="{{ package.doc }}" target="_blank"><i style="color:#333;float:right; margin-right:5px" class="fa fa-home"></i></a>
                         </h4>
                     </div>
                     <div id="pr{{ package.tag }}" class="panel-collapse collapse in">
                         <div class="panel-body">
-                        <p>{{ package.description }}</p> <a href="{{ site.baseurl }}packages/{{ package.tag }}.html"> <span style="float:right">learn more</a></span></p>
+                        <p>{{ package.description }}</p>
+                        <a href="{{ package.url | prepend: site.baseurl | replace:'//','/'}}">
+                            <span style="float:right">learn more</span>
+                        </a>
                         </div>
                     </div>
                 </div>
-                {% endfor %}
+                {% endif %}
              {% endfor %}
-</div>
        {% endfor %}
+</div>

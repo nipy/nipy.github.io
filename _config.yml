@@ -23,3 +23,7 @@ googleanalytics: "UA-69411900-1"
 # Options
 reverse: true
 
+collections:
+  packages:
+    output: true
+    permalink: /packages/:path/
