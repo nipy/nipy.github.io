@@ -26,4 +26,4 @@ reverse: true
 collections:
   packages:
     output: true
-    permalink: /packages/:path/
+    permalink: /packages/:path/index.html
