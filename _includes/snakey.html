@@ -5,7 +5,7 @@
             <div id="snakey"></div>
         </div>
         <div class="col-md-10">
-            <img src="{{ site.baseurl }}img/nipy.svg" width="150px">
+            <img src="{{ '/img/nipy.svg' | prepend: site.baseurl }}" width="150px">
         </div>
    </div>
 </div>
@@ -38,7 +38,7 @@ var nodes = [
                     radius: "10",
                     color: colors[{{ category.count }}],
                     tag: "{{ package.tag }}",
-                    url: "{{ package.url | prepend: site.baseurl | replace:'//','/'}}"
+                    url: "{{ package.url | prepend: site.baseurl }}"
                   },
                  {% endif %}
               {% endfor %}
