@@ -4,7 +4,7 @@ nipy.org is built with a custom theme created for Jekyll.
 - [site](http://www.nipy.org)
 - preview changes with [continuous integration](https://circleci.com/gh/nipy/nipy.github.com/tree/master)
 
-![Circle CI](https://circleci.com/gh/nipy/nipy.github.com.svg?style=svg)
+[![Circle CI](https://circleci.com/gh/nipy/nipy.github.com.svg?style=svg)](https://circleci.com/gh/nipy/nipy.github.com)
 
 ###### Install Jekyll and RubyGems
 
