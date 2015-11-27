@@ -8,26 +8,28 @@ layout: default
 
 <div class="panel-group" id="accordion">
         {% for category in site.data.package-categories %}
-            {% for package in site.packages %}
-                {% if package.category == category.tag %}
-                <div class="panel panel-default">
+                <div class="panel panel-default" style="margin-top: 15px;">
                     <div class="panel-heading">
                         <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#pr{{ package.tag }}">{{ package.name }}</a>
-                            <a href="{{ package.github }}" target="_blank"><i style="color:#666;float:right;" class="fa fa-github"> </i></a>
-                            <a href="{{ package.doc }}" target="_blank"><i style="color:#333;float:right; margin-right:5px" class="fa fa-home"></i></a>
+                            <a data-toggle="collapse" data-parent="#accordion" href="#pr{{ category.tag }}">{{ category.subtitle }}</a>
                         </h4>
                     </div>
-                    <div id="pr{{ package.tag }}" class="panel-collapse collapse in">
+                    <div id="pr{{ category.tag }}" class="panel-collapse collapse in">
                         <div class="panel-body">
-                        <p>{{ package.description }}</p>
-                        <a href="{{ package.url | prepend: site.baseurl }}">
-                            <span style="float:right">learn more</span>
-                        </a>
+            {% for package in site.packages %}
+                {% if package.category == category.tag %}
+                            <li style="list-style-type: none; margin-bottom: 10px;">
+                            <a href="{{ package.github }}" target="_blank"><i style="color:#666;" class="fa fa-github"> </i></a>
+                            <a href="{{ package.doc }}" target="_blank"><i style="color:#333;margin-right:5px" class="fa fa-home"></i></a>
+                            <a href="{{ package.url | prepend: site.baseurl }}" style="text-decoration: underline">
+                                {{ package.name }}
+                            </a>
+                             - {{ package.description }}
+                            </li>
+                {% endif %}
+             {% endfor %}
                         </div>
                     </div>
                 </div>
-                {% endif %}
-             {% endfor %}
        {% endfor %}
 </div>
