@@ -31,7 +31,7 @@ layout: default
                         <a href="{{ package.github }}" target="_blank"><i class="fa fa-github"> </i></a>
                         <a href="{{ package.doc }}" target="_blank"><i class="fa fa-home"></i></a>
                         <a class="package-name" href="{{ package.url | prepend: site.baseurl }}">{{ package.name }}</a>
-                         - {{ package.description }}
+                         - {% if package.one-liner %}{{ package.one-liner }}{% else %}{{ package.description }}{% endif %}
                     </li>
             {% endif %}
          {% endfor %}
