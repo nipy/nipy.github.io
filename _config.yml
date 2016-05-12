@@ -16,6 +16,13 @@ permalink: "/:title"
 paginate: 8
 paginate_path: /page:num/
 
+# SEO
+logo: /img/nipy.png
+authorTwitter:  'nipyorg'
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate
+
 # Custom variables
 version: "1.1.0"
 googleanalytics: "UA-69411900-1"
