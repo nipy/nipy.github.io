@@ -20,6 +20,7 @@ general:
 test:
   override:
     - gem install jekyll-paginate
+    - gem install jekyll-seo-tag
     - chmod u+x circle_urls.sh
     - bash circle_urls.sh
     - rm -rf vendor
