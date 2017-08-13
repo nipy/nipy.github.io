@@ -1,15 +1,13 @@
 machine:
   environment:
-    NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
+    NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of libraries
 
-dependencies:
-  post:
-    - bundle exec jekyll build
 
 test:
-  post:
+  override:
     - chmod u+x circle_urls.sh
     - bash circle_urls.sh
+    - bundle exec jekyll build
 
 
 general:
