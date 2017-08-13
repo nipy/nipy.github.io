@@ -8,7 +8,8 @@ dependencies:
 
 test:
   post:
-    - bundle exec htmlproofer ./_site --allow-hash-href --check-html
+    - chmod u+x circle_urls.sh
+    - bash circle_urls.sh
 
 
 general:
