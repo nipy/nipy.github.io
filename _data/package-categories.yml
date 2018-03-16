@@ -1,8 +1,8 @@
 - subtitle: "Analysis Pipeline Management"
   tag: "analysis-pipeline-management"
   count: 1
-- subtitle: "Diffusion MRI"
-  tag: "diffusion-mri"
+- subtitle: "Anatomical MRI"
+  tag: "anatomical-mri"
   count: 2
 - subtitle: "File I/O and Data Management"
   tag: "file-data-management"
@@ -16,9 +16,6 @@
 - subtitle: "Human Electrophysiology"
   tag: "human-electrophysiology"
   count: 6
-- subtitle: "Data Curation"
-  tag: "data-curation"
-  count: 7
 - subtitle: "Data Visualisation"
   tag: "data-visualisation"
-  count: 8
+  count: 7
