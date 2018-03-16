@@ -16,6 +16,9 @@
 - subtitle: "Human Electrophysiology"
   tag: "human-electrophysiology"
   count: 6
+- subtitle: "Data Curation"
+  tag: "data-curation"
+  count: 7
 - subtitle: "Data Visualisation"
   tag: "data-visualisation"
-  count: 1
+  count: 7
