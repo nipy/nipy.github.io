@@ -1,8 +1,8 @@
 - subtitle: "Analysis Pipeline Management"
   tag: "analysis-pipeline-management"
   count: 1
-- subtitle: "Anatomical MRI"
-  tag: "anatomical-mri"
+- subtitle: "Computational Anatomy"
+  tag: "computational-anatomy"
   count: 2
 - subtitle: "File I/O and Data Management"
   tag: "file-data-management"
