@@ -1,8 +1,8 @@
 - subtitle: "Analysis Pipeline Management"
   tag: "analysis-pipeline-management"
   count: 1
-- subtitle: "Diffusion MRI"
-  tag: "diffusion-mri"
+- subtitle: "Computational Anatomy"
+  tag: "computational-anatomy"
   count: 2
 - subtitle: "File I/O and Data Management"
   tag: "file-data-management"
@@ -18,4 +18,4 @@
   count: 6
 - subtitle: "Data Visualisation"
   tag: "data-visualisation"
-  count: 1
+  count: 7
