@@ -45,7 +45,7 @@ jobs:
 
       - store_artifacts:
           path: ./_site
-          destination: nipy.github.io
+          destination: nipy.github.com
 
 workflows:
   version: 2
