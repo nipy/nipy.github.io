@@ -23,7 +23,7 @@ googleanalytics: "UA-69411900-1"
 # SEO
 logo: /img/nipy.png
 authorTwitter: 'nipyorg'
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
