@@ -22,13 +22,13 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - rubygems-v1-{{ checksum "Gemfile.lock" }}
+            - rubygems-v1-{{ checksum "Gemfile" }}
             - rubygems-v1-fallback
       - run:
           name: Bundle Install
           command: bundle check || bundle install
       - save_cache:
-          key: rubygems-v1-{{ checksum "Gemfile.lock" }}
+          key: rubygems-v1-{{ checksum "Gemfile" }}
           paths:
             - vendor/bundle
       - run:
