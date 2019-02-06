@@ -5,8 +5,6 @@
 # Functions
 ################################################################################
 
-version: 2
-
 defaults: &defaults
   docker:
     - image: docker:18.01.0-ce-git
@@ -14,6 +12,7 @@ defaults: &defaults
     - JEKYLL_ENV: production
     - NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of libraries
 
+version: 2
 jobs:
   build:
     <<: *defaults
@@ -29,7 +28,6 @@ jobs:
               bash circle_urls.sh
               bundle exec jekyll build
 
-      - run: *buildsite
       - store_artifacts:
           path: /tmp/_site
           destination: nipy.github.io
