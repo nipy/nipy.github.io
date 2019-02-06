@@ -1,0 +1,45 @@
+# This will build the nipy.github.io repository, only with intention
+# to preview on circle
+
+################################################################################
+# Functions
+################################################################################
+
+version: 2
+
+defaults: &defaults
+  docker:
+    - image: docker:18.01.0-ce-git
+  environment:
+    - JEKYLL_ENV: production
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of libraries
+
+jobs:
+  build:
+    <<: *defaults
+    working_directory: /tmp/src
+    steps:
+      - checkout
+      - run: 
+          name: Build the Jekyll Site for nipy.github.io
+          no_output_timeout: 60m
+          command: |
+              echo "Building Snakey thoughts!"
+              chmod u+x circle_urls.sh
+              bash circle_urls.sh
+              bundle exec jekyll build
+
+      - run: *buildsite
+      - store_artifacts:
+          path: /tmp/_site
+          destination: nipy.github.io
+
+workflows:
+  version: 2
+  build_site:
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: 
+                - master
