@@ -38,14 +38,6 @@ jobs:
               chmod u+x circle_urls.sh
               bash circle_urls.sh
               bundle exec jekyll build
-      - run:
-          name: HTMLProofer tests
-          command: |
-            bundle exec htmlproofer ./_site \
-              --allow-hash-href \
-              --check-favicon  \
-              --check-html \
-              --disable-external
       - persist_to_workspace:
           root: ./
           paths:
