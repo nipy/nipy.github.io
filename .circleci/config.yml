@@ -7,26 +7,49 @@
 
 defaults: &defaults
   docker:
-    - image: docker:18.01.0-ce-git
+    - image: circleci/ruby:2.5
+  working_directory: ~/repo
   environment:
     - JEKYLL_ENV: production
     - NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of libraries
+    - BUNDLE_PATH: ~/repo/vendor/bundle
 
 version: 2
 jobs:
   build:
     <<: *defaults
-    working_directory: /tmp/src
     steps:
       - checkout
-      - run: 
-          name: Build the Jekyll Site for nipy.github.io
-          no_output_timeout: 60m
+      - restore_cache:
+          keys:
+            - rubygems-v1-{{ checksum "Gemfile.lock" }}
+            - rubygems-v1-fallback
+      - run:
+          name: Bundle Install
+          command: bundle check || bundle install
+      - save_cache:
+          key: rubygems-v1-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - run:
+          name: Jekyll build
           command: |
               echo "Building Snakey thoughts!"
               chmod u+x circle_urls.sh
               bash circle_urls.sh
               bundle exec jekyll build
+      - run:
+          name: HTMLProofer tests
+          command: |
+            bundle exec htmlproofer ./_site \
+              --allow-hash-href \
+              --check-favicon  \
+              --check-html \
+              --disable-external
+      - persist_to_workspace:
+          root: ./
+          paths:
+            - _site
 
       - store_artifacts:
           path: /tmp/_site
@@ -34,10 +57,9 @@ jobs:
 
 workflows:
   version: 2
-  build_site:
+  build-site:
     jobs:
       - build:
           filters:
             branches:
-              ignore: 
-                - master
+              ignore: master
