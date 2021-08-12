@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.5.8'
+ruby '2.5.9'
 
 gem 'jekyll'
 gem 'html-proofer'
